@@ -1,4 +1,4 @@
-# Andrew J. Hesford
+# About
 
 Twenty years of experience in applying computational science, numerical
 analysis and scientific computing to solve challenging problems in the areas of
@@ -26,7 +26,7 @@ contribute to or find interesting.
 If you are looking for an operating system, I highly recommend
 [Void Linux](https://www.voidlinux.org).
 
-## Contact
+# Contact
 
 Find me on [LinkedIn](https://www.linkedin.com/in/ajhesford/) for more
 information about my work.
