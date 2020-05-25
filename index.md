@@ -23,6 +23,13 @@ In my freetime, I contribute to a some open-source projects. My
 [GitHub profile](https://github.com/ahesford) contains forks of some projects I
 contribute to or find interesting.
 
+If you are looking for an operating system, I highly recommend
+[Void Linux](https://www.voidlinux.org).
+
 ## Contact
 
-Find me on [LinkedIn](https://www.linkedin.com/in/ajhesford/) for more details.
+Find me on [LinkedIn](https://www.linkedin.com/in/ajhesford/) for more
+information about my work.
+
+For more immediate contact, find me on the `#voidlinux`
+[freenode](https://freenode.net) IRC channel.
