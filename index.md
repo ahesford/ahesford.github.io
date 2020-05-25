@@ -31,5 +31,5 @@ If you are looking for an operating system, I highly recommend
 Find me on [LinkedIn](https://www.linkedin.com/in/ajhesford/) for more
 information about my work.
 
-For more immediate contact, find me on the `#voidlinux`
+For a more immediate response, find me as `ahesford` on the `#voidlinux`
 [freenode](https://freenode.net) IRC channel.
