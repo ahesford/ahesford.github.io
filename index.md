@@ -17,6 +17,9 @@ the fly. I am keenly interested in broadening the applications of numerical and
 scientific computing into nontraditional applications and offering unique
 insight into a wide range of problems.
 
+[My resume](docs/resume.pdf) provides more details about the work that I do and
+have done.
+
 ## Diversions
 
 In my freetime, I contribute to a some open-source projects. My
@@ -25,12 +28,13 @@ contribute to or find interesting.
 
 If you are looking for an operating system, I highly recommend
 [Void Linux](https://www.voidlinux.org). This rolling-release Linux
-distribution stays current but promotes stability, 
+distribution stays current but promotes stability. The Void Linux community is
+experienced, helpful and responsive. I maintain several packages for Void.
 
 # Contact
 
-Find me on [LinkedIn](https://www.linkedin.com/in/ajhesford/) for more
-information about my work.
+Find me on [LinkedIn](https://www.linkedin.com/in/ajhesford/) to read more
+about my work or to send me a message.
 
-For a more immediate response, find me as `ahesford` on the `#voidlinux`
+For a more interactive discussion, find me as `ahesford` in the `#voidlinux`
 [freenode](https://freenode.net) IRC channel.
