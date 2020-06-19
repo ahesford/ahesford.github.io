@@ -26,6 +26,12 @@ contribute to or find interesting.
 If you are looking for an operating system, I highly recommend
 [Void Linux](https://www.voidlinux.org).
 
+When I build Linux systems, I rely on [OpenZFS](https://github.com/openzfs/zfs)
+for storage because of its excellent and flexible volume management and
+replication features. The best way to boot a Linux system from ZFS is
+[zfsbootmenu](https://github.com/zdykstra/zfsbootmenu), a project on which I
+collaborate to bring FreeBSD-style ZFS boot environments to Linux.
+
 # Contact
 
 Find me on [LinkedIn](https://www.linkedin.com/in/ajhesford/) for more
