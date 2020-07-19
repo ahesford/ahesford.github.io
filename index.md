@@ -32,6 +32,19 @@ replication features. The best way to boot a Linux system from ZFS is
 [zfsbootmenu](https://github.com/zdykstra/zfsbootmenu), a project on which I
 collaborate to bring FreeBSD-style ZFS boot environments to Linux.
 
+## Articles
+
+I've written a few articles that describe my Void Linux setup or its use. They
+are reproduced here for general interest.
+
+* Using ZFS snapshots and `zfsbootmenu` to bisect a `libvirt` "regression";
+  [local copy](./articles/libvirt-zbm-notes.html) or
+  [Reddit original](https://www.reddit.com/r/voidlinux/comments/hmnzxt/using_zfs_snapshots_and_zfsbootmenu_to_bisect_a/)
+
+* Simple backups with `zfs-auto-snapshot`, `zfs-prune-snapshots` and `zrep`;
+  [local copy](./articles/zfs-backup-strategies.html) or
+  [Reddit original](https://www.reddit.com/r/voidlinux/comments/hu1ron/simple_backup_with_zfsautosnapshot/)
+
 # Contact
 
 Find me on [LinkedIn](https://www.linkedin.com/in/ajhesford/) for more
