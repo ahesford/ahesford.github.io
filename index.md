@@ -52,6 +52,46 @@ intended to support my own research, are not thoroughly documented.
   This program was written to convert CUPS shared printer records into a format
   recognized by iOS as AirPrint printers.
 
+## Academic Publications
+
+- A. J. Hesford, J. C. Tillett, J. P. Astheimer, and R. C. Waag, "Comparison of
+  temporal and spectral scattering methods using acoustically large breast
+  models derived from magnetic resonance images", *J. Acoust. Soc.  Am.*
+  **136**, 682–692 (2014). (DOI: 10.1121/1.4887461)
+
+- A. J. Hesford and R. C. Waag, "Reduced-rank approximations to the far-field
+  transform in the gridded fast multipole method", *J. Comput. Phys.* **230**,
+  3656–3667 (2011). (DOI: 10.1016/j.jcp.2011.02.016, PMCID: PMC3086302)
+
+- A. J. Hesford and R. C. Waag, "The fast multipole method and Fourier
+  convolution for the solution of acoustic scattering on regular volumetric
+  grids", *J. Comput. Phys.* **229**, 8199–8210 (2010).  (DOI:
+  10.1016/j.jcp.2010.07.025, PMCID: PMC2936276)
+
+- A. J. Hesford and W. C. Chew, "Fast inverse scattering solutions using the
+  distorted Born iterative method and the multilevel fast multipole algorithm",
+  *J. Acoust. Soc. Am.* **128**, 679–690 (2010). (DOI: 10.1121/1.3458856,
+  PMCID: PMC2933255)
+
+- A. J. Hesford, J. P. Astheimer, and R. C. Waag, "Acoustic scattering by
+  arbitrary distributions of disjoint, homogeneous cylinders or spheres", *J.
+  Acoust. Soc. Am.* **127**, 2883–2893 (2010). (DOI: 10.1121/1.3372641, PMCID:
+  PMC2882659)
+
+- A. J. Hesford, J. P. Astheimer, L. F. Greengard, and R. C. Waag, "A mesh-free
+  approach to acoustic scattering from multiple spheres nested inside a large
+  sphere by using diagonal translation operators", *J. Acoust. Soc. Am.*
+  **127**, 850–861 (2010). (DOI: 10.1121/1.3277219, PMCID: PMC2830261)
+
+- A. J. Hesford and W. C. Chew, "On preconditioning and the eigensystems of
+  electromagnetic radiation problems", *IEEE Trans. Ant. Propag.* **56**,
+  2413–2420 (2008). (DOI: 10.1109/TAP.2008.926783)
+
+- A. J. Hesford and W. C. Chew, "A frequency-domain formulation of the Fréchet
+  derivative to exploit the inherent parallelism of the distorted Born
+  iterative method", *Waves in Random and Complex Media* **16**, 495–508
+  (2006). (DOI: 10.1080/17455030600675830)
+
 ## Diversions
 
 In my free time, I contribute to a some open-source projects. My
@@ -67,7 +107,7 @@ replication features. The best way to boot a Linux system from ZFS is
 [zfsbootmenu](https://github.com/zdykstra/zfsbootmenu), a project on which I
 collaborate to bring FreeBSD-style ZFS boot environments to Linux.
 
-## Articles
+## Articles on Void Linux
 
 I've written a few articles that describe my Void Linux setup or its use. They
 are reproduced here for general interest.
