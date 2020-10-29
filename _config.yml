@@ -1,3 +1,6 @@
 theme: jekyll-theme-slate
 title: "sideband.org"
 description: "Personal site for Andrew J. Hesford"
+show_downloads: false
+github:
+  is_project_page: false
