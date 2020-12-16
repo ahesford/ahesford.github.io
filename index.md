@@ -112,19 +112,22 @@ collaborate to bring FreeBSD-style ZFS boot environments to Linux.
 I've written a few articles that describe my Void Linux setup or its use. They
 are reproduced here for general interest.
 
-* Using ZFS snapshots and `zfsbootmenu` to bisect a `libvirt` "regression";
-  [local copy](./articles/libvirt-zbm-notes.html) or
-  [Reddit original](https://www.reddit.com/r/voidlinux/comments/hmnzxt/using_zfs_snapshots_and_zfsbootmenu_to_bisect_a/)
+* Using ZFS snapshots and `zfsbootmenu` to bisect a `libvirt` "regression"
 
-* Simple backups with `zfs-auto-snapshot`, `zfs-prune-snapshots` and `zrep`;
-  [local copy](./articles/zfs-backup-strategies.html) or
-  [Reddit original](https://www.reddit.com/r/voidlinux/comments/hu1ron/simple_backup_with_zfsautosnapshot/)
+    * [local copy](./articles/libvirt-zbm-notes.html) or
+    * [Reddit original](https://www.reddit.com/r/voidlinux/comments/hmnzxt/using_zfs_snapshots_and_zfsbootmenu_to_bisect_a/)
 
-* Mutt, IMAP and Mail Synchronization with Runit;
-  [local copy](./articles/mailsync.html)
-  [Reddit original](https://www.reddit.com/r/voidlinux/comments/kege37/mutt_imap_and_mail_synchronization_with_runit/)
+* Simple backups with `zfs-auto-snapshot`, `zfs-prune-snapshots` and `zrep`
 
-# Contact
+    * [local copy](./articles/zfs-backup-strategies.html) or
+    * [Reddit original](https://www.reddit.com/r/voidlinux/comments/hu1ron/simple_backup_with_zfsautosnapshot/)
+
+* Mutt, IMAP and Mail Synchronization with Runit
+
+    * [local copy](./articles/mailsync.html)
+    * [Reddit original](https://www.reddit.com/r/voidlinux/comments/kege37/mutt_imap_and_mail_synchronization_with_runit/)
+
+## Contact
 
 Find me on [LinkedIn](https://www.linkedin.com/in/ajhesford/) for more
 information about my work.

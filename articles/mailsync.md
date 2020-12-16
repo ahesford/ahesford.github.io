@@ -210,9 +210,9 @@ configuration is
     "onNewMail": "/usr/bin/touch ~/Mail/triggers/<account>"
     "boxes": [
         "INBOX",
-	"Archive",
-	"Drafts",
-	"Sent"
+        "Archive",
+        "Drafts",
+        "Sent"
     ]
 
 Again, I rely on pass to manage my credentials, and I touch the appropriate
@@ -237,7 +237,7 @@ The generic runit script takes the form
     
     # Run the watcher, but throttle its restart
     exec snooze -H /1 -M /1 -S /1 -t timefile -T $THROTTLE_RATE \
-    		/bin/sh -c "touch timefile; exec goimapnotify -conf '$config' 2>&1"
+            /bin/sh -c "touch timefile; exec goimapnotify -conf '$config' 2>&1"
 
 I'm using the usual name-to-account trick with support for a `conf` override.
 This service just launches `goimapnotify` with the right configuration file for
