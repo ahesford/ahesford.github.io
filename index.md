@@ -120,6 +120,10 @@ are reproduced here for general interest.
   [local copy](./articles/zfs-backup-strategies.html) or
   [Reddit original](https://www.reddit.com/r/voidlinux/comments/hu1ron/simple_backup_with_zfsautosnapshot/)
 
+* Mutt, IMAP and Mail Synchronization with Runit;
+  [local copy](./articles/mailsync.html)
+  [Reddit original](https://www.reddit.com/r/voidlinux/comments/kege37/mutt_imap_and_mail_synchronization_with_runit/)
+
 # Contact
 
 Find me on [LinkedIn](https://www.linkedin.com/in/ajhesford/) for more
