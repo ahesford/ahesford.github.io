@@ -107,7 +107,7 @@ replication features. The best way to boot a Linux system from ZFS is
 [zfsbootmenu](https://github.com/zdykstra/zfsbootmenu), a project on which I
 collaborate to bring FreeBSD-style ZFS boot environments to Linux.
 
-## Articles on Void Linux
+## Articles on Linux
 
 I've written a few articles that describe my Void Linux setup or its use. They
 are reproduced here for general interest.
@@ -115,17 +115,22 @@ are reproduced here for general interest.
 * Using ZFS snapshots and `zfsbootmenu` to bisect a `libvirt` "regression"
 
     * [local copy](./articles/libvirt-zbm-notes.html) or
-    * [Reddit original](https://www.reddit.com/r/voidlinux/comments/hmnzxt/using_zfs_snapshots_and_zfsbootmenu_to_bisect_a/)
+    * [Reddit copy](https://www.reddit.com/r/voidlinux/comments/hmnzxt/using_zfs_snapshots_and_zfsbootmenu_to_bisect_a/)
 
 * Simple backups with `zfs-auto-snapshot`, `zfs-prune-snapshots` and `zrep`
 
     * [local copy](./articles/zfs-backup-strategies.html) or
-    * [Reddit original](https://www.reddit.com/r/voidlinux/comments/hu1ron/simple_backup_with_zfsautosnapshot/)
+    * [Reddit copy](https://www.reddit.com/r/voidlinux/comments/hu1ron/simple_backup_with_zfsautosnapshot/)
 
 * Mutt, IMAP and Mail Synchronization with Runit
 
     * [local copy](./articles/mailsync.html)
-    * [Reddit original](https://www.reddit.com/r/voidlinux/comments/kege37/mutt_imap_and_mail_synchronization_with_runit/)
+    * [Reddit copy](https://www.reddit.com/r/voidlinux/comments/kege37/mutt_imap_and_mail_synchronization_with_runit/)
+
+* A Home Router Built on Void Linux and ZFSBootMenu
+
+    * [local copy](./articles/void-zbm-router.html)
+    * [Reddit copy](https://www.reddit.com/r/voidlinux/comments/q6t7o1/a_home_router_built_on_void_linux_and_zfsbootmenu/)
 
 ## Contact
 
