@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>Introduction to Vim</title>
+                    
+  <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+</head>
+<body>
+
+<i>Ed: This content appears to have been written 14 Mar 2002.</i>
+     
+<h1>Background</h1>
+   In the modern era of computing, modeless text editors like GNU EMACS or
+ the Microsoft Notepad are becoming more and more common. In such editors, 
+ the data is always opeen to modification; editor commands are given through 
+ key combinations consisting of a modifier (Control, Alternate, Meta) pressed 
+ simultaneously with a function key (generally any non-modifier, most often 
+ a letter or number key). Some modeless editors even have menus which make 
+ commands available through the use of the mouse.<br>
+   <br>
+   In contrast to EMACS and Notepad, editors like Vim and its relatives (<tt>
+  ed</tt>, <tt>vi</tt>, <tt>elvis</tt>) are <i>modal</i>--data is only modified 
+ when the editor is placed in <i>edit mode</i>. At all other times, any keypresses 
+ are interpreted as commands. This may seem confusing to newcomers... and 
+indeed, new users of Vim will often make the mistake of adding the text ":q!" 
+to their files or telling the editor to save and quit when they wish to refer 
+ to the band 'ZZ Top'!<br>
+   <br>
+   The purpose of this tutorial is to make new users comfortable enough with 
+ Vim that these mistakes no longer occur. Why bother learning Vim when an 
+alternative like EMACS is available and perhaps more intuitive? There are 
+several reasons:<br>
+   
+<ul>
+    <li>EMACS is much less intuitive than it initially seems. The editor
+is  a very complicated system, and it takes a significant amount of memorization
+ to master all of the command keystrokes. It may be simple to start EMACS,
+ type "Hi mom!" and then the key combination Ctrl-X-Ctrl-S to save and quit,
+ but there is more to a text editor than typing, saving and quiting.</li>
+    <li>While EMACS is very popular, surveys have shown <tt>vi</tt> and its
+ variants to be <i>more</i> popular; familiarity with Vim will bring immediate
+ familiarity with most of these variants. It is virtually guaranteed that
+some variant of <tt>vi</tt> will be available on any UNIX system.</li>
+    <li>The presence of a <i>command mode</i> in Vim allows more intuitive
+ control of the editor. As stated above, the command to save and quit from
+ an EMACS session is Ctrl-X-Ctrl-S. In Vim, typing <b><tt>:write</tt></b>
+ and then <b><tt>:quit</tt></b> will achieve the same result. These commands
+can also be abbreviated, so <b><tt>:wq</tt></b> achieves the same result.&nbsp;</li>
+   
+</ul>
+  By following the steps in this tutorial, a user will be able to perform 
+operations on text files at a level sufficient for most power-users.<br>
+   
+<h1>Conventions</h1>
+  As with virtually any computer program, Vim expects a certain amount of 
+user input. It is important that input specified in this document is entered 
+exactly as it is presented, or unexpected results may occur. To distinguish 
+expected input from the body of this document, all commands that should be 
+entered into Vim will be presented in a bold <b><tt>fixed-width font</tt></b>
+ . If the words "fixed-width font" did not appear different from the rest 
+of this paragraph, be sure to set the browser's fixed-width font display setting
+to a different font than that specified by the variable-width font setting.
+ To avoid confusion about punction or other special characters, any commands
+that contain these characters will be enclosed in quotes. Unless otherwise
+specified, the quotes should <i>not</i> be typed. Finally, all commands should
+be followed by a newline character; most modern Unices will insert this character
+when the user presses "Return" or "Enter". However, it is possible that a
+different key will yield the same result. Contact a system administrator
+in the event of trouble.  
+<h1>Escape Key</h1>
+  The Escape key is perhaps the most important key in a Vim session. On most
+ systems, this key is located in the upper left region of the keyboard, and
+ is imprinted with the letters "<tt>Esc</tt>". When Vim is in <i>edit mode</i>
+  , Escape will enter <i>command mode</i> and wait for any user commands. 
+While entering a command in <i>command mode</i>, Escape will erase the typed 
+portion of the command, effectively resetting <i>command mode</i>.<br>
+<h1>Multipliers and Ranges</h1>
+ In order to improve efficiency, most commands respect multipliers, and most
+commands dealing with whole lines respect ranges. As one might assume, command
+multipliers will repeat the specified action a given number of times. Likewise,
+command ranges will repeat the specified command on all lines that fall within
+the line range (inclusive).<br>
+<br>
+Multipliers are specified as a number before a command. For instance, <b><tt>
+6x</tt></b> will perform a character delete 6 times. Ranges are specified
+as two numbers before the command, separated by a comma: <b><tt>25,32dd</tt></b>
+ deletes all lines between 25 and 32, inclusive. Where this behavior seems
+nonobvious, a discussion of the actual behavior will accompany a command.<br>
+   
+<h1>Basic Commands</h1>
+  Among the most basic commands are those that move the cursor or delete
+characters.  In addition to using the arrow keys to move the cursor, it can
+be useful to use these navigation keys in <i>command mode</i>:<br>
+   
+<ul>
+    <li><b><tt>h j k l</tt></b> moves the cursor left one character, down 
+one line, up one line, or right one characer, respectively.</li>
+   
+</ul>
+   
+<ul>
+    <li><b><tt>w e b</tt></b> moves the cursor forward one word, to the end
+ of the current word, or back one word, respectively. Note that words are
+NOT defined as they are in English! A Vim "word" is any collection of contiguous
+ alphanumeric characters or any collection of contiguous non-alphanumeric
+characters. Hence, the following three strings each count as three words
+in Vim:      
+    <ol>
+  <li><tt>don't</tt></li>
+  <li><tt>don'''t</tt></li>
+  <li><tt>don' t</tt></li>
+       
+    </ol>
+   </li>
+    <li><tt><b>W E B</b></tt> behave like their lowercase equivalents, only 
+a "word" is any number of continguous non-whitespace characters. Often, this 
+can be more in line with the English definition of a word, but be careful!&nbsp;</li>
+   
+</ul>
+ Vim would be useless if it were only possible to move the cursor. The following 
+keys all perform actions on the character under the cursor:<br>
+ 
+<ul>
+   <li><tt><b>r</b></tt> switches to <i>edit mode</i>, replaces the character 
+with the next character typed, and returns to <i>command mode</i>.</li>
+   <li><b><tt>i</tt> </b>switches to <i>edit mode</i> so that all text entered 
+will be inserted <i>before</i> the position of the cursor.</li>
+   <li><tt><b>a</b></tt> moves the cursor one character to the right and
+then performs the same function as <tt><b>i</b></tt>. The effect is the same
+as inserting text <i>after</i> the original position of the cursor.</li>
+   <li><tt><b>x</b></tt> deletes the character.</li>
+ 
+</ul>
+ To avoid the tedium of using <tt><b>x</b></tt> for deleting characters,
+the <tt><b>d</b></tt> command controls more sophisticated deletion. <b><tt>
+d</tt></b> has multiple forms:<br>
+<ul>
+  <li><b><tt>dw</tt></b> deletes a portion of the word, starting at the cursor
+and continuing to the end.</li>
+  <li><tt><b>dd</b></tt> deletes the line the curor is on.</li>
+  <li><b><tt>d$</tt></b> deletes all characters between the position of the
+cursor and the end of the line, inclusive.</li>
+  <li><b><tt>dG</tt></b> deletes all lines from the cursor to the end of
+the file.</li>
+</ul>
+<h1></h1>
+<br>
+     
+</body>
+</html>
