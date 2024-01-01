@@ -1,0 +1,20 @@
+profile default {
+	output DP-1 enable position 0,0 scale 1.5
+	output DP-2 enable position 2560,0 scale 1.5
+}
+
+profile natural {
+	output DP-1 enable position 0,0 scale 1.0
+	output DP-2 enable position 3840,0 scale 1.0
+}
+
+profile dp1-only {
+	output DP-1 enable position 0,0 scale 1.5
+}
+
+profile dp2-only {
+	output DP-2 enable position 2560,0 scale 1.5
+}
+
+profile empty {
+}
